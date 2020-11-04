@@ -127,7 +127,7 @@ header-includes:
 
 \begin{exampleblock}{Défense du véhicule}
   \begin{itemize}
-  	\item \'Etat de l'art défenses dynamiques
+  	\item \'Etat de l'art défense dynamique
 	\item Présentation défense MTD basée sur la reconfiguration du réseau
   \end{itemize}
 \end{exampleblock}
@@ -463,7 +463,7 @@ Transactions on Information Forensics and Security4.2 (juin 2009)}
 
 \begin{exampleblock}{Exemple : Recherche stratégies défenses optimales
 en cas d'attaque.}
-$\rightarrow$ Représentation interractions attaquant / defenseur avec
+$\rightarrow$ Représentation interactions attaquant / defenseur avec
   modèle mathématique. \newline
 $\rightarrow$ Permet l'observation de l'impact de la configuration
   système et méthodes défenses sur interactions attaquant /
@@ -479,10 +479,10 @@ $\rightarrow$ Permet l'observation de l'impact de la configuration
 \footnotetext{Ziad Ismail et al.  “A Game Theoretical Model forOptimal
 Distribution of Network Security Resources”.en. In: (2017)}
 
-- **Equilibre de Nash** ; joueurs jouent simultanément. Détermination
+- **\'Equilibre de Nash** ; joueurs jouent simultanément. Détermination
   stratégies dont les deux joueurs ne devraient pas dévier seul.
 
-- **Equilibre de Stackelberg** ; joueurs jouent chacun leur
+- **\'Equilibre de Stackelberg** ; joueurs jouent chacun leur
   tour. Determination des meilleures stratégies permettant de limiter
   les gains du second joueur.
 
@@ -518,7 +518,7 @@ Distribution of Network Security Resources”.en. In: (2017)}
 \begin{columns}
 	\begin{column}{0.99\textwidth}
 	\centering
-	\textbf{Un ensemble d'actions fini par joueur}
+	\textbf{Un ensemble fini d'actions par joueur}
 	\end{column}
 \end{columns}
 
@@ -623,7 +623,7 @@ Distribution of Network Security Resources”.en. In: (2017)}
 \begin{column}{0.60\textwidth}
 \begin{itemize}
 \item Utiliser les différents équilibres présentés afin de determiner les stratégies
-	optimales permettant d'avoir les fonction d'utilité maximales.
+	optimales permettant d'avoir les fonctions d'utilité maximales.
 \end{itemize}
 \end{column}
 \end{columns}
