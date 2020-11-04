@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="218.23843mm"
+   height="98.160332mm"
+   viewBox="0 0 218.23844 98.16033"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="drawing.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4673"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4671"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4663"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1788"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1785"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient844">
+      <stop
+         style="stop-color:#ce2b2b;stop-opacity:1;"
+         offset="0"
+         id="stop840" />
+      <stop
+         style="stop-color:#ce2b2b;stop-opacity:0;"
+         offset="1"
+         id="stop842" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient844"
+       id="linearGradient846"
+       x1="103.11308"
+       y1="56.390606"
+       x2="115.1125"
+       y2="56.390606"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.46003752,0,0,0.5035019,6.4755979,7.4922819)" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1788-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1788-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1788-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-9-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1788-0-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-8-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1788-3-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="391.37345"
+     inkscape:cy="172.25511"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-nodes="false"
+     inkscape:snap-grids="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="992"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="true"
+     fit-margin-top="0.8"
+     fit-margin-left="0.6"
+     fit-margin-right="0.6"
+     fit-margin-bottom="1.1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4659"
+       originx="-11.374169"
+       originy="-184.52836" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.374167,-14.311322)">
+    <rect
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817"
+       width="11.803587"
+       height="12.515077"
+       x="24.365406"
+       y="15.396668" />
+    <rect
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect819"
+       width="11.127338"
+       height="7.4013896"
+       x="39.980568"
+       y="21.18321" />
+    <ellipse
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path821"
+       cx="17.633675"
+       cy="21.889706"
+       rx="5.3792381"
+       ry="3.6670518" />
+    <ellipse
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path826"
+       cx="52.706303"
+       cy="30.09852"
+       rx="6.3936081"
+       ry="3.8016226" />
+    <path
+       style="opacity:0;fill:url(#linearGradient846);fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path828"
+       sodipodi:type="arc"
+       sodipodi:cx="56.671577"
+       sodipodi:cy="35.885059"
+       sodipodi:rx="2.4898188"
+       sodipodi:ry="1.7830619"
+       sodipodi:start="0"
+       sodipodi:end="1.3873779"
+       d="M 59.161396,35.885059 A 2.4898188,1.7830619 0 0 1 57.1257,37.638212 l -0.454123,-1.753153 z" />
+    <rect
+       style="opacity:0.2;fill:#010101;fill-opacity:1;stroke:#12333c;stroke-width:0.17210811;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848"
+       width="14.154595"
+       height="15.155496"
+       x="23.189901"
+       y="20.300354" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 23.25882,25.960469 H 37.275577"
+       id="path1614"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578655px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="31.272789"
+       y="25.463242"
+       id="text1618"
+       transform="scale(0.80166326,1.2474066)"><tspan
+         sodipodi:role="line"
+         id="tspan1616"
+         x="31.272789"
+         y="25.463242"
+         style="stroke-width:0.08414466">Kernel 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="34.604912"
+       y="19.692961"
+       id="text1618-9"
+       transform="scale(0.80166326,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8"
+         x="34.604912"
+         y="19.692961"
+         style="stroke-width:0.08414466">APP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0288322px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0507208"
+       x="33.349098"
+       y="15.199272"
+       id="text1618-9-3"
+       transform="scale(0.81865112,1.2215216)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-8"
+         x="33.349098"
+         y="15.199272"
+         style="font-weight:bold;stroke-width:0.0507208">Master</tspan></text>
+    <rect
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817-5"
+       width="11.803587"
+       height="12.515077"
+       x="24.672791"
+       y="43.418911" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#12333c;stroke-width:0.17210811;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848-2"
+       width="14.154596"
+       height="15.155496"
+       x="23.497286"
+       y="48.322598" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 23.566205,53.982711 H 37.582962"
+       id="path1614-2"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="31.656221"
+       y="47.927643"
+       id="text1618-2"
+       transform="scale(0.80166326,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-7"
+         x="31.656221"
+         y="47.927643"
+         style="stroke-width:0.08414466">Kernel 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="34.988342"
+       y="42.15736"
+       id="text1618-9-0"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-3"
+         x="34.988342"
+         y="42.15736"
+         style="stroke-width:0.08414466">APP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0288322px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0507208"
+       x="33.724575"
+       y="38.139709"
+       id="text1618-9-3-4"
+       transform="scale(0.81865111,1.2215216)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-8-6"
+         x="33.724575"
+         y="38.139709"
+         style="font-style:italic;stroke-width:0.0507208">Slave</tspan></text>
+    <rect
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817-3"
+       width="11.803587"
+       height="12.515077"
+       x="50.616089"
+       y="15.495486" />
+    <rect
+       style="opacity:0.21000001;fill:#010101;fill-opacity:1;stroke:#12333c;stroke-width:0.17210811;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848-6"
+       width="14.154596"
+       height="15.155496"
+       x="49.440582"
+       y="20.399174" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 49.509501,26.059287 H 63.526258"
+       id="path1614-3"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="63.711308"
+       y="25.596399"
+       id="text1618-3"
+       transform="scale(0.80166326,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-4"
+         x="63.711308"
+         y="25.596399"
+         style="stroke-width:0.08414466">Kernel 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="67.350182"
+       y="19.772179"
+       id="text1618-9-4"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-39"
+         x="67.350182"
+         y="19.772179"
+         style="stroke-width:0.08414466">APP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0288322px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0507208"
+       x="65.414871"
+       y="15.280169"
+       id="text1618-9-3-7"
+       transform="scale(0.81865111,1.2215216)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-8-2"
+         x="65.414871"
+         y="15.280169"
+         style="font-weight:bold;stroke-width:0.0507208">Master</tspan></text>
+    <rect
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817-58"
+       width="11.803587"
+       height="12.515077"
+       x="50.616089"
+       y="43.418907" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#12333c;stroke-width:0.17210811;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848-9"
+       width="14.154596"
+       height="15.155496"
+       x="49.440582"
+       y="48.322598" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 49.509501,53.982709 H 63.526258"
+       id="path1614-0"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="63.481247"
+       y="48.089462"
+       id="text1618-24"
+       transform="scale(0.80166326,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-76"
+         x="63.481247"
+         y="48.089462"
+         style="stroke-width:0.08414466">Kernel 2'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="67.350189"
+       y="42.157364"
+       id="text1618-9-5"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-7"
+         x="67.350189"
+         y="42.157364"
+         style="stroke-width:0.08414466">APP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0288322px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0507208"
+       x="65.414879"
+       y="38.139709"
+       id="text1618-9-3-1"
+       transform="scale(0.81865111,1.2215216)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-8-3"
+         x="65.414879"
+         y="38.139709"
+         style="font-style:italic;stroke-width:0.0507208">Slave</tspan></text>
+    <rect
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817-33"
+       width="11.803587"
+       height="12.515077"
+       x="73.424057"
+       y="15.428201" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#12333c;stroke-width:0.17210811;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848-8"
+       width="14.154596"
+       height="15.155496"
+       x="72.24855"
+       y="20.331886" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 72.317469,25.992002 H 86.334228"
+       id="path1614-5"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="91.471939"
+       y="25.48852"
+       id="text1618-1"
+       transform="scale(0.80166326,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-0"
+         x="91.471939"
+         y="25.48852"
+         style="stroke-width:0.08414466">Kernel 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="95.800987"
+       y="19.718239"
+       id="text1618-9-8"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-76"
+         x="95.800987"
+         y="19.718239"
+         style="stroke-width:0.08414466">APP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0288322px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0507208"
+       x="93.275291"
+       y="15.225086"
+       id="text1618-9-3-3"
+       transform="scale(0.81865111,1.2215216)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-8-5"
+         x="93.275291"
+         y="15.225086"
+         style="font-style:italic;stroke-width:0.0507208">Slave</tspan></text>
+    <rect
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817-0"
+       width="11.803587"
+       height="12.515077"
+       x="73.608482"
+       y="43.217052" />
+    <rect
+       style="opacity:0.2;fill:#010101;fill-opacity:1;stroke:#12333c;stroke-width:0.17210811;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848-80"
+       width="14.154596"
+       height="15.155496"
+       x="72.432976"
+       y="48.120739" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 72.501903,53.780854 H 86.518657"
+       id="path1614-4"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="91.318565"
+       y="47.819763"
+       id="text1618-11"
+       transform="scale(0.80166326,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-3"
+         x="91.318565"
+         y="47.819763"
+         style="stroke-width:0.08414466">Kernel 2'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="96.031052"
+       y="41.995541"
+       id="text1618-9-59"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-34"
+         x="96.031052"
+         y="41.995541"
+         style="stroke-width:0.08414466">APP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0288322px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0507208"
+       x="93.500587"
+       y="37.974461"
+       id="text1618-9-3-15"
+       transform="scale(0.81865111,1.2215216)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-8-0"
+         x="93.500587"
+         y="37.974461"
+         style="font-weight:bold;stroke-width:0.0507208">Master</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 37.460008,29.459308 49.32507,29.593879"
+       id="path1783"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12058331px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-8)"
+       d="m 63.553005,29.121309 8.808674,0.162542"
+       id="path1783-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-6)"
+       d="m 37.55735,57.337302 11.865062,0.134571"
+       id="path1783-9"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.11300001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-9)"
+       d="m 63.664071,57.328282 8.651149,0.14534"
+       id="path1783-7"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.21170473px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05529262"
+       x="38.691948"
+       y="58.427025"
+       id="text2682"
+       transform="scale(1.054041,0.9487297)"><tspan
+         sodipodi:role="line"
+         id="tspan2680"
+         x="38.691948"
+         y="58.427025"
+         style="stroke-width:0.05529262">KARL</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.14095867;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4673)"
+       d="m 19.894726,40.935096 c 0,0 91.673684,-0.08786 91.673684,-0.08786"
+       id="path4661"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect4663"
+       inkscape:original-d="m 19.894726,40.935096 91.673684,-0.08786" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="16.848732"
+       y="22.488205"
+       id="text1618-0"
+       transform="scale(0.80166326,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-80"
+         x="16.848732"
+         y="22.488205"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.20720029px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.08414466">U 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="17.065636"
+       y="44.686546"
+       id="text1618-0-3"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-80-5"
+         x="17.065636"
+         y="44.686546"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.20720029px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.08414466">U 2</tspan></text>
+    <rect
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817-33-5"
+       width="11.803587"
+       height="12.515077"
+       x="96.550529"
+       y="15.428206" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#12333c;stroke-width:0.17210811;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848-8-0"
+       width="14.154597"
+       height="15.155496"
+       x="95.375023"
+       y="20.331892" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 95.443942,25.992004 H 109.4607"
+       id="path1614-5-8"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="120.32005"
+       y="25.488523"
+       id="text1618-1-3"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-0-5"
+         x="120.32005"
+         y="25.488523"
+         style="stroke-width:0.08414466">Kernel 1'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="124.6491"
+       y="19.718243"
+       id="text1618-9-8-6"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-76-5"
+         x="124.6491"
+         y="19.718243"
+         style="stroke-width:0.08414466">APP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0288322px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0507208"
+       x="121.52478"
+       y="15.225089"
+       id="text1618-9-3-3-9"
+       transform="scale(0.81865111,1.2215216)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-8-5-9"
+         x="121.52478"
+         y="15.225089"
+         style="font-style:italic;stroke-width:0.0507208">Slave</tspan></text>
+    <rect
+       style="opacity:0;fill:#ef1010;fill-opacity:1;stroke:#ff022d;stroke-width:0.56550318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817-0-0"
+       width="11.803587"
+       height="12.515077"
+       x="96.734955"
+       y="43.21706" />
+    <rect
+       style="opacity:0.2;fill:#010101;fill-opacity:1;stroke:#12333c;stroke-width:0.17210811;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848-80-7"
+       width="14.154597"
+       height="15.155496"
+       x="95.559456"
+       y="48.120743" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12733847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 95.628375,53.780858 H 109.64513"
+       id="path1614-4-6"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="120.16667"
+       y="47.819771"
+       id="text1618-11-3"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-3-7"
+         x="120.16667"
+         y="47.819771"
+         style="stroke-width:0.08414466">Kernel 2'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.36578631px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08414466"
+       x="124.87917"
+       y="41.995544"
+       id="text1618-9-59-6"
+       transform="scale(0.80166327,1.2474065)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-34-1"
+         x="124.87917"
+         y="41.995544"
+         style="stroke-width:0.08414466">APP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0288322px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0507208"
+       x="121.75007"
+       y="37.974464"
+       id="text1618-9-3-15-5"
+       transform="scale(0.81865111,1.2215216)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-8-8-0-0"
+         x="121.75007"
+         y="37.974464"
+         style="font-weight:bold;stroke-width:0.0507208">Master</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.12058331px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-8-4)"
+       d="m 86.679477,29.121314 8.808674,0.16254"
+       id="path1783-5-6"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.11300001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-9-9)"
+       d="m 86.790544,57.328286 8.651148,0.145341"
+       id="path1783-7-5"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.21170473px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05529262"
+       x="83.22628"
+       y="28.73695"
+       id="text2682-6-0"
+       transform="scale(1.054041,0.94872971)"><tspan
+         sodipodi:role="line"
+         id="tspan2680-3-8"
+         x="83.22628"
+         y="28.73695"
+         style="stroke-width:0.05529262">KARL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.4197588px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11049397"
+       x="87.183083"
+       y="55.067951"
+       id="text1618-4-1"
+       transform="scale(1.2531687,0.79797718)"><tspan
+         sodipodi:role="line"
+         id="tspan1616-39-2"
+         x="87.183083"
+         y="55.067951"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.56722426px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.11049397">t</tspan></text>
+  </g>
+</svg>
