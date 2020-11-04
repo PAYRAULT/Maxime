@@ -4,6 +4,7 @@ author:
 title: | 
 	   | Reconfiguration d’Architectures pour l’Amélioration de la Résilience des Véhicules Connectés
 	   |
+	  
 short-title : |
               | Soutenance de mi-parcours
 			  |
@@ -46,7 +47,7 @@ header-includes:
 	- \usepackage{caption}
 	- \usepackage{float}
     - \usepackage{subcaption}
-	- \definecolor{codegreen}{rgb}{0,0.6,0}
+    - \definecolor{codegreen}{rgb}{0,0.6,0}
 	- \definecolor{codered}{rgb}{0.6,0,0}
 	- \definecolor{codeblue}{rgb}{0,0,0.6}
 	- \definecolor{darkgreen}{rgb}{0.18,0.54,0.34}
@@ -60,30 +61,85 @@ header-includes:
 	- \usepackage{booktabs} 
 	- \usepackage{dcolumn} 
 	- \usepackage{threeparttable}
-	- \usepackage{adjustbox} 
+	- \usepackage{adjustbox}
+---
+
 
 ---
+
+# Chaire C3S - Connected Cars and CyberSecurity
+
+
+\begin{columns}
+    \begin{column}{0.30\textwidth}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\textwidth]{logo/NOKIA.png}
+		\end{figure}
+    \end{column}
+    \begin{column}{0.30\textwidth}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\textwidth]{logo/Renault.png}
+		\end{figure}
+    \end{column}
+    \begin{column}{0.30\textwidth}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\textwidth]{logo/Thales.png}
+		\end{figure}
+    \end{column}
+\end{columns}
+
+
+\begin{columns}
+    \begin{column}{0.30\textwidth}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\textwidth]{logo/valeo.png}
+		\end{figure}
+    \end{column}
+    \begin{column}{0.30\textwidth}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\textwidth]{logo/Wavestone.png}
+		\end{figure}
+    \end{column}
+    \begin{column}{0.30\textwidth}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.4\textwidth]{logo/Telecom.png}
+		\end{figure}
+    \end{column}
+\end{columns}
+
+
 
 # Sommaire
 
 \begin{exampleblock}{Présentation du sujet}
-\end{exampleblock}
-
-\begin{exampleblock}{\'Etat de l'art}
   \begin{itemize}
-  	\item Techniques de défenses dynamiques
-	\item Résilience
-	\item Théorie des jeux
+	\item Contexte
+	\item Caractérisation de l'attaquant
+	\item Définition résilience
   \end{itemize}
 \end{exampleblock}
 
-\begin{exampleblock}{Travaux réalisés}
+\begin{exampleblock}{Défense du véhicule}
   \begin{itemize}
-	\item Définition de l'architecture d'un véhicule
-	\item Défense MTD basée sur la reconfiguration du réseau
-	\item Stratégies de défenses optimales
+  	\item \'Etat de l'art défenses dynamiques
+	\item Présentation défense MTD basée sur la reconfiguration du réseau
   \end{itemize}
 \end{exampleblock}
+
+\begin{exampleblock}{Théorie des jeux}
+  \begin{itemize}
+	\item \'Etat de l'art
+	\item Définition de notre jeu
+  \end{itemize}
+\end{exampleblock}
+
+
 
 \begin{exampleblock}{Travaux futurs}
   \begin{itemize}
@@ -93,15 +149,18 @@ header-includes:
 \end{exampleblock}
 
 
-# Présentation du sujet - Le contexte
+
+
+
+# Présentation du Sujet - Le Contexte
 
 \begin{columns}
     \begin{column}{0.75\textwidth}
-        \begin{itemize}
-            \item IoT de plus en plus présent dans la vie
-            courante. \newline $\rightarrow$ fortement développé dans
-            l'industrie automobile.
-        \end{itemize}
+		\begin{exampleblock}{Problème}
+			\begin{itemize}
+				\item Les véhicules deviennent vulnérables à des cyber-attaques.
+			\end{itemize}
+		\end{exampleblock}
     \end{column}
     \begin{column}{0.22\textwidth}
 \begin{figure}[h]
@@ -112,41 +171,75 @@ header-includes:
     \end{column}
 \end{columns}
 
-  
-- Cohabitation entre applications critiques (impliquant vies humaines)
-  et applications non critiques (expérience de l'utilisateur).
+\begin{exampleblock}{Sous-problème 1}
+  \begin{itemize}
+	\item Cohabitation entre \textbf{applications critiques} et \textbf{applications non critiques}. \newline
+	$\rightarrow$ Améliorer la sécurité de la voiture sans perturber son fonctionnement.
+  \end{itemize}
+\end{exampleblock}
 
-- Nouvelles attaques non connues au moment de la conception du système
-  qui apparaitront pendant la durée de vie du véhicule
+\begin{exampleblock}{Sous-problème 2}
+  \begin{itemize}
+	\item Durée vie $\approx$ 20 ans et MAJ compliquées \newline
+	$\rightarrow$ Devoir être le plus \textbf{résilient} possible. \newline
+	$\implies$ \emph{Augmenter} Disponibilité ; \emph{Maintenir} Confidentialité et Intégrité 
+  \end{itemize}
+\end{exampleblock}
 
-- Objectif : Être capable de s'adapter à toutes formes d'attaques
-  connues ou non. 
-  \newline $\rightarrow$ Être le plus résilient possible.
-  \newline $\rightarrow$ $\Uparrow$ Disponibilité ; $=$ Confidentialité et Intégrité
 
+# Présentation du Sujet - Trois Types d'Attaquants
 
-# Présentation du sujet - Trois Types d'Attaquants
-
-- **Attaque physique** : Via diagnostique de la voiture. Objectif :
+\begin{itemize}
+  \only<1,2,3>{ \item[1]  \textbf{Attaque physique} : Via diagnostique de la voiture. Objectif :
   Rajouter des fonctionnalités sur le véhicules pour lesquelles on a
-  pas payé.
-
-- **Attaque courte portée** : Via smartphone/laptop.. Objectif :
+  pas payé.}
+  \only<2,3>{ \item[2] \textbf{Attaque courte portée} : Via smartphone/laptop.. Objectif :
   Prendre le contrôle d'un véhicule proche, ou envoyer de fausses
-  informations au véhicules alentours.
-
-- **Attaque longue portée** : Via WiFi/4G. Objectif : Prendre le
-  contrôle d'une flotte de véhicule.
+  informations au véhicules alentours.}
+  \only<3>{ \item[3] \textbf{Attaque longue portée} : Via WiFi/4G. Objectif : Prendre le
+  contrôle d'une flotte de véhicule. }
+\end{itemize}
 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{assets/Car_Archi.jpg}
+    \only<1>{\includegraphics[width=0.5\textwidth]{assets/Car_Archi_1.jpg} }
+	\only<2>{\includegraphics[width=0.5\textwidth]{assets/Car_Archi_2.jpg} }
+	\only<3>{\includegraphics[width=0.5\textwidth]{assets/Car_Archi_3.jpg} }
     \label{idea1}
 \end{figure}
 
 
-# Etat de l'Art - Techniques de Défenses Dynamiques
+
+# Présentation du Sujet - Définition Résilience
+
+\begin{exampleblock}{Définition de la Résilience\footnotemark}
+  \begin{itemize}
+	\item The persistence of service delivery that can justifiably be
+    trusted, when facing changes.
+  \end{itemize}
+\end{exampleblock}
+
+
+\begin{exampleblock}{Notre Définition de la Résilience}
+  \begin{itemize}
+	\item Se défendre de manière \emph{proactive} le plus longtemps possible
+		  contre toutes formes d'attaques. Une fois ces défenses
+		  tombées, revenir rapidement dans un \'etat de fonctionnement nominal grâce
+		  à des mécanismes de défenses \emph{réactifs}.
+  \end{itemize}
+\end{exampleblock}
+
+\footnotetext{Laprie, Jean-Claude. “From Dependability to Resilience.”
+International Conference on Dependable Systems and Networks (DSN 2008,
+2008, 2.)}
+
+
+- Exemple de méthodes visant à améliorer la *résilience* : \textit{Redondance, Obsfucation, Cryptographie, Monitorat, Isolation}.
+
+
+
+# Défense du Véhicule - Techniques de Défenses Dynamiques
 
 - Véhicules limités en puissance calcul et en ressources. \newline
   $\rightarrow$ Utilisation de méthodes de défense légère.
@@ -154,18 +247,19 @@ header-includes:
 - Deux types de défenses dynamiques complémentaires applicables sur
   les véhicules : *Moving Target Defense* (MTD) et *Modes Dégradés*.
 
-- Côté proactif : **MTD**\footnotemark : ralentir l'acquisition de
-  connaissances sur le système par un attaquant.
-
 - Côté réactif : **Modes Dégradés** : bloquer la progression d'un
   attaquant après les défenses percées. \newline Aide au retour du
   système dans état nominal.
 
-\footnotetext[1]{Gui-linCaiet al. “Moving target defense : state of
+- Côté proactif : **MTD**\footnotemark : ralentir l'acquisition de
+  connaissances sur le système par un attaquant.
+
+
+\footnotetext{Gui-linCaiet al. “Moving target defense : state of
 the art and characteristics”. en. In :Frontiers of Information
 Technology and Electronic Engineering17.11 (nov. 2016)}
 
-# Etat de l'Art - Moving Target Defense
+# Défense du Véhicule - Moving Target Defense
 
 \begin{columns}
     \begin{column}{0.75\textwidth}
@@ -178,7 +272,7 @@ Technology and Electronic Engineering17.11 (nov. 2016)}
     \begin{column}{0.22\textwidth}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{assets/MTD.jpg}
+    \includegraphics[width=0.85\textwidth]{assets/MTD.jpg}
     \label{MTD}
 \end{figure}
     \end{column}
@@ -190,11 +284,11 @@ Technology and Electronic Engineering17.11 (nov. 2016)}
 
 \begin{exampleblock}{Les MTD se divisent en 5 catégories \footnotemark : }
   \begin{itemize}
-	\item Changer dynamiquement la représentation des données
-	\item Utilisation dynamique d'applications
-	\item Modification de l'environnement d'ex\'ecution
-	\item Rendre dynamique la plateforme d'ex\'ecution
-	\item Configuration dynamique du réseau
+	\item Changer dynamiquement la \emph{représentation des données}
+	\item Utilisation dynamique d'\emph{applications}
+	\item Modification de l'\emph{environnement d'ex\'ecution}
+	\item Rendre dynamique la \emph{plateforme d'ex\'ecution}
+	\item Configuration dynamique du \emph{réseau}
   \end{itemize}
 \end{exampleblock}
 
@@ -202,17 +296,17 @@ Technology and Electronic Engineering17.11 (nov. 2016)}
 :en. Rapp. tech. Fort Belvoir, VA :Defense Technical Information
 Center, sept. 2013.}
 
-# Etat de l'Art - Efficacité des MTD Lors d'une Attaque
+# Défense du Véhicule - Efficacité des MTD Lors d'une Attaque
 
 \begin{columns}
-    \begin{column}{0.22\textwidth}
+    \begin{column}{0.26\textwidth}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{assets/hacker.jpg}
+    \includegraphics[width=1\textwidth]{assets/hacker.jpg}
     \label{MTD}
 \end{figure}
     \end{column}
-\begin{column}{0.75\textwidth}
+\begin{column}{0.72\textwidth}
 \begin{exampleblock}{Une attaque est divisée en 5 phases \footnotemark : }
   \begin{enumerate}
 	\item Reconnaissance
@@ -246,33 +340,104 @@ Donées                   &                &              & $\checkmark$ & $\che
 \end{adjustbox}
 \end{table}
 
-# Etat de l'Art - Résilience
 
-\begin{exampleblock}{Définition de la Résilience\footnotemark}
+
+# Défense du Véhicule - Défense MTD Basée sur la Reconfiguration du Réseau
+
+- Ralentir l'attaquant durant la phase de *Reconnaissance*
+
+- Méthode permettant cacher un véhicule dans un réseau\footnotemark. \newline
+  $\rightarrow$ Changement régulier adresse IP + Limitation impact sur QoS.
+
+\footnotetext{Maxime Ayrault, Etienne Borde, Ulrich Kühne. “Run or
+Hide ? Both ! A Method Based onIPv6 Address Switching to Escape While
+Being Hidden”. In :Proceedings of the 6th ACMWorkshop on Moving Target
+Defense - MTD’19.}
+
+
+\begin{minipage}{0.38\textwidth}
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.9\textwidth]{assets/net.pdf}
+    \label{MTD}
+\end{figure}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+\begin{exampleblock}{Actuellement : }
   \begin{itemize}
-	\item The persistence of service delivery that can justifiably be
-    trusted, when facing changes.
+	\item Un véhicule = Une adresse IPv4 (appartenant 
+    \`a la plage d'adresse du constructeur)
+	\item Découverte de l'adresse $\rightarrow$ Collecte d'informations
+    du système par attaquant possible.
   \end{itemize}
 \end{exampleblock}
 
-
-\begin{exampleblock}{Notre Définition de la Résilience}
-  \begin{itemize}
-	\item Se défendre de manière proactive le plus longtemps possible
-		  contre toutes formes d'attaques. Une fois ces défenses
-		  tombées, revenir rapidement dans un \'etat de fonctionnement nominal grâce
-		  à des mécanismes de défenses réactifs.
-  \end{itemize}
-\end{exampleblock}
-
-\footnotetext{Laprie, Jean-Claude. “From Dependability to Resilience.”
-International Conference on Dependable Systems and Networks (DSN 2008,
-2008, 2.)}
+\end{minipage}
 
 
-- Exemple de méthodes visant à améliorer la résilience : \textit{Redondance, Obsfucation, Cryptographie, Monitorat, Isolation}.
 
-# Etat de l'Art - Théorie des Jeux
+# Défense du Véhicule - Principe de notre Méthode
+
+
+\begin{columns}
+    \begin{column}{0.75\textwidth}
+        \begin{itemize}
+            \item Un véhicule = $N$ adresses IP.
+				  \vspace{0.3cm} 
+            \item Une seule adresse IP active à la fois. \newline (Active =
+   				  Acceptant les messages entrant = Vert ) \vspace{0.3cm}
+            \item Rotation périodique de l'adresse IP active. \vspace{0.3cm}
+            \item Renouvellement adresse IP après utilisation.\vspace{0.3cm}
+            \item Utilisation \textit{MultiPath TCP} (MPTCP) \newline $\rightarrow$ Garantir une
+				  qualité de service suffisante. 
+        \end{itemize}
+    \end{column}
+    \begin{column}{0.23\textwidth}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{assets/Car2.pdf}
+    \label{MTD}
+\end{figure}
+    \end{column}
+\end{columns}
+
+
+
+# Défense du Véhicule - Différentes Versions de la Méthode
+
+$N =$ Nombre adresses IP par véhicule
+
+- Version 1 : $N > 2$ ; Pas de renouvellement adresse après utilisation.
+
+- Version 2 : $N > 2$ ; Renouvellement adresse après utilisation.
+
+- Version 3 : $N = 2$ ; Renouvellement adresse après utilisation.
+
+\bigskip
+
+\begin{table}
+\begin{tabular}{l | c | c | c | c }
+ & Version 1 & Version 2 & Version 3 \\
+\hline \hline
+Coût interface & +++ & +++ &  + \\ 
+Coût bande passante & +  & ++ & +++ \\
+Risque d'attaque DoS & +++  & + & + \\
+\end{tabular}
+\end{table}
+
+
+
+# Défense du Véhicule -  Exemple d'Utilisation de la Version 3
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{assets/exemple_ver3.pdf}
+    \label{idea1}
+\end{figure}
+
+
+
+# Théorie des Jeux - Etat de l'Art
 
 \begin{columns}
     \begin{column}{0.75\textwidth}
@@ -306,15 +471,15 @@ $\rightarrow$ Permet l'observation de l'impact de la configuration
 \end{exampleblock}
 
 
-# Etat de l'Art - Analyse sur les Jeux
+# Théorie des Jeux - Etat de l'Art
 
 - La recherche des meilleures stratégies passe par l'analyse de
-  plusieurs \'equilibres\footnotemark.
+  plusieurs équilibres\footnotemark.
 
 \footnotetext{Ziad Ismail et al.  “A Game Theoretical Model forOptimal
 Distribution of Network Security Resources”.en. In: (2017)}
 
-- **Equilibre de Nash** ; joueurs jouent simultanément. D\'etermination
+- **Equilibre de Nash** ; joueurs jouent simultanément. Détermination
   stratégies dont les deux joueurs ne devraient pas dévier seul.
 
 - **Equilibre de Stackelberg** ; joueurs jouent chacun leur
@@ -325,133 +490,116 @@ Distribution of Network Security Resources”.en. In: (2017)}
   pourrait obtenir.
 
 
-# Travaux Réalisés - Architecture Véhicule
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=1\textwidth]{assets/Car_complete_architecture.pdf}
-    \label{idea1}
-\end{figure}
-
-# Travaux Réalisés - Défense MTD Basée sur la Reconfiguration du Réseau
-
-- Méthode permettant cacher un véhicule dans un réseau. \newline
-  $\rightarrow$ Changement régulier adresse IP + Limitation impact sur QoS.
-
-- Publication article Workshop MTD associé ACM CCS de 2019 \footnotemark.
-
-\footnotetext{Maxime Ayrault, Etienne Borde, Ulrich Kühne. “Run or
-Hide ? Both ! A Method Based onIPv6 Address Switching to Escape While
-Being Hidden”. In :Proceedings of the 6th ACMWorkshop on Moving Target
-Defense - MTD’19.}
-
-
-\begin{minipage}{0.38\textwidth}
-\begin{figure}[]
-    \centering
-    \includegraphics[width=0.9\textwidth]{assets/net.pdf}
-    \label{MTD}
-\end{figure}
-\end{minipage}
-\begin{minipage}{0.6\textwidth}
-\begin{exampleblock}{Actuellement : }
-  \begin{itemize}
-	\item Un véhicule = Une adresse IPv4 (appartenant 
-    \`a la plage d'adresse du constructeur)
-	\item Découverte de l'adresse $\rightarrow$ Collecte d'informations
-    du système par attaquant possible.
-  \end{itemize}
-\end{exampleblock}
-
-\end{minipage}
-
-
-
-# Travaux Réalisés - Principe de notre Méthode
+# Théorie des Jeux - Définition du Jeu
 
 
 \begin{columns}
-    \begin{column}{0.75\textwidth}
-        \begin{itemize}
-            \item Un véhicule = $N$ interfaces réseaux. \newline
-				  $\rightarrow$ Plusieurs adresses IP par véhicule. \vspace{0.3cm} 
-            \item Une seule adresse IP active à la fois. \newline (Active =
-   				  Acceptant les messages entrant) \vspace{0.3cm}
-            \item Rotation périodique de l'adresse IP active. \vspace{0.3cm}
-            \item Renouvellement adresse IP après utilisation.\vspace{0.3cm}
-            \item Utilisation \textit{MultiPath TCP} (MPTCP) \newline $\rightarrow$ Garantir une
-				  qualité de service suffisante. 
-        \end{itemize}
-    \end{column}
-    \begin{column}{0.22\textwidth}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.9\textwidth]{assets/Car2.pdf}
-    \label{MTD}
-\end{figure}
-    \end{column}
+	\begin{column}{0.99\textwidth}
+	\centering
+	\textbf{2 joueurs}
+	\end{column}
 \end{columns}
 
 
+\begin{columns}
+	\begin{column}{0.30\textwidth}
+	\centering
+	1 Attaquant
+	\end{column}
+\begin{column}{0.30\textwidth}
+	\centering
+	1 Défenseur
+	\end{column}
+\end{columns}
+
+\medskip
+
+\begin{columns}
+	\begin{column}{0.99\textwidth}
+	\centering
+	\textbf{Un ensemble d'actions fini par joueur}
+	\end{column}
+\end{columns}
 
 
+\begin{columns}
+	\begin{column}{0.30\textwidth}
+	\centering
+	\emph{-Attaquer \newline -Ne Pas Attaquer}
+	\end{column}
+\begin{column}{0.30\textwidth}
+	\centering
+	\emph{- Se reconfigurer\newline - Se dégrader\newline - Ne Rien Faire}
+	\end{column}
+\end{columns}
+
+\bigskip
+
+\begin{columns}
+	\begin{column}{0.99\textwidth}
+	\centering
+	\textbf{Une fonction de Reward associée par combinaison d'actions}
+	\end{column}
+\end{columns}
 
 
+\begin{columns}
+	\begin{column}{0.30\textwidth}
+	\centering
+	$R_A$ = Gain - Coût action
+	\end{column}
+\begin{column}{0.30\textwidth}
+	\centering
+	$R_D$ = Gain - Coût action
+	\end{column}
+\end{columns}
 
-# Travaux Réalisés - Différentes versions Méthode
+\bigskip
 
-- Version 1 : $N > 2$ ; Pas de renouvellement adresse après utilisation.
-
-- Version 2 : $N > 2$ ; Renouvellement adresse après utilisation.
-
-- Version 3 : $N = 2$ ; Renouvellement adresse après utilisation.
-
-\begin{table}
-\begin{tabular}{l | c | c | c | c }
- & Version 1 & Version 2 & Version 3 \\
-\hline \hline
-Coût interface & +++ & +++ &  + \\ 
-Coût bande passante & +  & ++ & +++ \\
-Risque d'attaque DoS & +++  & + & + \\
-\end{tabular}
-\end{table}
-
-
-
-# Travaux Réalisés -  Exemple d'Utilisation de la Version 3
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\textwidth]{assets/exemple_ver3.pdf}
-    \label{idea1}
-\end{figure}
+\begin{columns}
+	\begin{column}{0.99\textwidth}
+	\centering
+	\textbf{Représentation de l'utilisation des actions}
+	\end{column}
+\end{columns}
 
 
-# Travaux Réalisés - Définition du Jeu
-
-- 2 joueurs : Un attaquant (le hacker) - un défenseur (le
-  système). \newline Nombre fini de mouvements définis.
-
-- Une combinaison mouvement = une fonction reward par joueur. \newline
-  \textit{$R_d$ : Reward Défenseur ; $R_a$ : Reward Attaquant}
-
-- Choix des actions à réaliser \newline $\rightarrow$ Dépense d'un
-  budget attribué à chaque joueur. \newline
-  \textit{$P$ : Budget Défenseur ; $Q$ :  Budget Attaquant}
-  
-
-- Trouver les meilleures stratégies \newline $\rightarrow$ Objectif
-  des deux joueurs = maximiser les rewards obtenus.
+\begin{columns}
+	\begin{column}{0.30\textwidth}
+	\centering
+	\emph{-$p_i$ : Attaquer \newline -$p_i^{not}$ :Ne Pas Attaquer}
+	\end{column}
+\begin{column}{0.30\textwidth}
+	\centering
+	\emph{-$q_i$ : Se reconfigurer\newline -$q_i^{deg}$ : Se dégrader\newline -$q_i^{not}$ : Ne Rien Faire}
+	\end{column}
+\end{columns}
 
 
-# Travaux Réalisés - Forme Normale Jeu
+\medskip
 
-- Utilisation des budgets dans les actions : \newline \textit{$q_i$ :
-  Se reconfigurer ; $q_i^{not}$ : ne rien faire ; $q_i^{deg}$ : Passer
-  en mode dégradé ; \newline $p_i$ : attaquer ; $p_i^{not}$ : ne pas
-  attaquer}
+\begin{columns}
+	\begin{column}{0.99\textwidth}
+	\centering
+	\textbf{Budget attribué à chaque joueur}
+	\end{column}
+\end{columns}
 
-- Tableau représentant forme normale du jeu :
+
+\begin{columns}
+	\begin{column}{0.30\textwidth}
+	\centering
+	$P \geq \sum p_i + p_i^{not}$
+	\end{column}
+\begin{column}{0.30\textwidth}
+	\centering
+	$Q \geq \sum q_i + q_i^{deg} + q_i^{not}$
+	\end{column}
+\end{columns}
+
+
+# Théorie des Jeux - Jeu Sous Forme Normale
 
 \begin{table}[]
 \begin{tabular}{l|l|l|l|}
@@ -462,8 +610,24 @@ Risque d'attaque DoS & +++  & + & + \\
 \end{tabular}
 \end{table}
 
-- Analyses de différents équilibres $\rightarrow$ determiner les
-  meilleures stratégies.
+\bigskip
+
+\begin{columns}
+	\begin{column}{0.30\textwidth}
+\begin{exampleblock}{Exemple Fonction Utilité Attaquant}
+  \begin{itemize}
+	\item $U_A = \sum_i \newline p_i q_i  R^a_1 + \newline p_i  q_i^{not} R^a_2 + \newline p_i  q_i^{deg}   R^a_3 + \newline p_i^{not}  q_i   R^a_4 + \newline p_i^{not}  q_i^{not}   R^a_5 + \newline p_i^{not}  q_i^{deg}   R^a_6$
+  \end{itemize}
+\end{exampleblock}
+	\end{column}
+\begin{column}{0.60\textwidth}
+\begin{itemize}
+\item Utiliser les différents équilibres présentés afin de determiner les stratégies
+	optimales permettant d'avoir les fonction d'utilité maximales.
+\end{itemize}
+\end{column}
+\end{columns}
+
 
 
 
