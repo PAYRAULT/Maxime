@@ -158,7 +158,9 @@ header-includes:
     \begin{column}{0.75\textwidth}
 		\begin{exampleblock}{Problème}
 			\begin{itemize}
-				\item Les véhicules deviennent vulnérables à des cyber-attaques.
+				\item Les véhicules intégrent de plus en plus
+                d'éléctronique et deviennent connecté ce qui les rends
+                plus vulnérables à des cyber-attaques.
 			\end{itemize}
 		\end{exampleblock}
     \end{column}
@@ -262,17 +264,17 @@ Technology and Electronic Engineering17.11 (nov. 2016)}
 # Défense du Véhicule - Moving Target Defense
 
 \begin{columns}
-    \begin{column}{0.75\textwidth}
+    \begin{column}{0.73\textwidth}
         \begin{itemize}
             \item Rendre dynamique différents aspects d'un système
 				  \newline $\rightarrow$ Casser la relation asymétrique attaquant /
 				  défenseur.
         \end{itemize}
     \end{column}
-    \begin{column}{0.22\textwidth}
+    \begin{column}{0.25\textwidth}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.85\textwidth]{assets/MTD.jpg}
+    \includegraphics[width=0.95\textwidth]{assets/MTD.jpg}
     \label{MTD}
 \end{figure}
     \end{column}
@@ -344,7 +346,7 @@ Donées                   &                &              & $\checkmark$ & $\che
 
 # Défense du Véhicule - Défense MTD Basée sur la Reconfiguration du Réseau
 
-- Ralentir l'attaquant durant la phase de *Reconnaissance*
+- Ralentir l'attaquant durant la phase de *Reconnaissance*.
 
 - Méthode permettant cacher un véhicule dans un réseau\footnotemark. \newline
   $\rightarrow$ Changement régulier adresse IP + Limitation impact sur QoS.
@@ -382,12 +384,12 @@ Defense - MTD’19.}
 \begin{columns}
     \begin{column}{0.75\textwidth}
         \begin{itemize}
-            \item Un véhicule = $N$ adresses IP.
+            \item Un véhicule = \emph{$N$ adresses IP.}
 				  \vspace{0.3cm} 
-            \item Une seule adresse IP active à la fois. \newline (Active =
+            \item Une seule adresse IP \emph{active} à la fois. \newline (Active =
    				  Acceptant les messages entrant = Vert ) \vspace{0.3cm}
-            \item Rotation périodique de l'adresse IP active. \vspace{0.3cm}
-            \item Renouvellement adresse IP après utilisation.\vspace{0.3cm}
+            \item \emph{Rotation périodique} de l'adresse IP active. \vspace{0.3cm}
+            \item \emph{Renouvellement} adresse IP après utilisation.\vspace{0.3cm}
             \item Utilisation \textit{MultiPath TCP} (MPTCP) \newline $\rightarrow$ Garantir une
 				  qualité de service suffisante. 
         \end{itemize}
@@ -407,11 +409,11 @@ Defense - MTD’19.}
 
 $N =$ Nombre adresses IP par véhicule
 
-- Version 1 : $N > 2$ ; Pas de renouvellement adresse après utilisation.
+- **Version 1** : $N > 2$ ; Pas de renouvellement adresse après utilisation.
 
-- Version 2 : $N > 2$ ; Renouvellement adresse après utilisation.
+- **Version 2** : $N > 2$ ; Renouvellement adresse après utilisation.
 
-- Version 3 : $N = 2$ ; Renouvellement adresse après utilisation.
+- **Version 3** : $N = 2$ ; Renouvellement adresse après utilisation.
 
 \bigskip
 
@@ -443,8 +445,8 @@ Risque d'attaque DoS & +++  & + & + \\
     \begin{column}{0.75\textwidth}
         \begin{itemize}
             \item Problème décisionnel à résoudre ? \newline $\rightarrow$
-			      Modélisation du problème grâce à la théorie des jeux \footnotemark \newline
-				  $\rightarrow$ Analyse sur le modèle afin trouver une/des solution(s)
+			      \emph{Modélisation} du problème grâce à la théorie des jeux \footnotemark \newline
+				  $\rightarrow$ \emph{Analyse} sur le modèle afin trouver une/des solution(s)
         \end{itemize}
     \end{column}
     \begin{column}{0.22\textwidth}
@@ -461,10 +463,10 @@ Risque d'attaque DoS & +++  & + & + \\
 Intrusion Detection in Heteroge-neous Networks”. en. In :IEEE
 Transactions on Information Forensics and Security4.2 (juin 2009)}
 
-\begin{exampleblock}{Exemple : Recherche stratégies défenses optimales
+\begin{exampleblock}{Exemple : Recherche \emph{stratégies défenses optimales}
 en cas d'attaque.}
 $\rightarrow$ Représentation interactions attaquant / defenseur avec
-  modèle mathématique. \newline
+  \emph{modèle mathématique}. \newline
 $\rightarrow$ Permet l'observation de l'impact de la configuration
   système et méthodes défenses sur interactions attaquant /
   défenseur.
@@ -479,10 +481,10 @@ $\rightarrow$ Permet l'observation de l'impact de la configuration
 \footnotetext{Ziad Ismail et al.  “A Game Theoretical Model forOptimal
 Distribution of Network Security Resources”.en. In: (2017)}
 
-- **\'Equilibre de Nash** ; joueurs jouent simultanément. Détermination
+- **Equilibre de Nash** ; joueurs jouent simultanément. Détermination
   stratégies dont les deux joueurs ne devraient pas dévier seul.
 
-- **\'Equilibre de Stackelberg** ; joueurs jouent chacun leur
+- **Equilibre de Stackelberg** ; joueurs jouent chacun leur
   tour. Determination des meilleures stratégies permettant de limiter
   les gains du second joueur.
 
@@ -622,8 +624,8 @@ Distribution of Network Security Resources”.en. In: (2017)}
 	\end{column}
 \begin{column}{0.60\textwidth}
 \begin{itemize}
-\item Utiliser les différents équilibres présentés afin de determiner les stratégies
-	optimales permettant d'avoir les fonctions d'utilité maximales.
+\item Utiliser les différents équilibres présentés afin de determiner les \emph{stratégies
+	optimales} permettant d'avoir les \emph{fonctions d'utilité maximales}.
 \end{itemize}
 \end{column}
 \end{columns}
