@@ -125,16 +125,16 @@ header-includes:
   \end{itemize}
 \end{exampleblock}
 
-\begin{exampleblock}{Défense du véhicule}
+\begin{exampleblock}{Amélioration sécurité des véhicules}
   \begin{itemize}
-  	\item \'Etat de l'art défense dynamique
+  	\item \'Etat de l'art \emph{défense dynamique}
 	\item Présentation défense MTD basée sur la reconfiguration du réseau
   \end{itemize}
 \end{exampleblock}
 
-\begin{exampleblock}{Théorie des jeux}
+\begin{exampleblock}{Recherche stratégies défenses optimales}
   \begin{itemize}
-	\item \'Etat de l'art
+	\item \'Etat de l'art \emph{théorie des jeux}
 	\item Définition de notre jeu
   \end{itemize}
 \end{exampleblock}
@@ -142,10 +142,6 @@ header-includes:
 
 
 \begin{exampleblock}{Travaux futurs}
-  \begin{itemize}
-	\item Amélioration du modèle et prise en compte de la résilience
-	\item Calcul de l'indice de résilience du véhicule
-  \end{itemize}
 \end{exampleblock}
 
 
@@ -158,16 +154,17 @@ header-includes:
     \begin{column}{0.75\textwidth}
 		\begin{exampleblock}{Problème}
 			\begin{itemize}
-				\item Les véhicules intégrent de plus en plus
-                d'éléctronique et deviennent connecté ce qui les rends
-                plus vulnérables à des cyber-attaques.
+				\item Les véhicules deviennent \emph{connectés} à internet
+                tout en embarquant des \textbf{appplication critiques}
+                cohabitant avec des \textbf{application non critique}. \newline
+				$\rightarrow$ Les problèmes impliquent des vies humaines.
 			\end{itemize}
 		\end{exampleblock}
     \end{column}
     \begin{column}{0.22\textwidth}
-\begin{figure}[h]
+\begin{figure}[]
     \centering
-    \includegraphics[width=0.8\textwidth]{assets/Car.pdf}
+    \includegraphics[width=0.95\textwidth]{assets/Car.pdf}
     \label{idea1}
 \end{figure}
     \end{column}
@@ -175,21 +172,22 @@ header-includes:
 
 \begin{exampleblock}{Sous-problème 1}
   \begin{itemize}
-	\item Cohabitation entre \textbf{applications critiques} et \textbf{applications non critiques}. \newline
-	$\rightarrow$ Améliorer la sécurité de la voiture sans perturber son fonctionnement.
+	\item Augmentation du temps de découverte et d'accès au véhicule
+    par un attaquant afin de retarder le plus longtemps possible le
+    deploiement d'attaques.
   \end{itemize}
 \end{exampleblock}
 
 \begin{exampleblock}{Sous-problème 2}
   \begin{itemize}
-	\item Durée vie $\approx$ 20 ans et MAJ compliquées \newline
-	$\rightarrow$ Devoir être le plus \textbf{résilient} possible. \newline
-	$\implies$ \emph{Augmenter} Disponibilité ; \emph{Maintenir} Confidentialité et Intégrité 
-  \end{itemize}
+	\item Un fois que l'attaquant aura accès au véhicule, être capable
+    d'être le plus résilient possible dans les mécanismes de défense
+    interne du véhicule
+	\end{itemize}
 \end{exampleblock}
 
 
-# Présentation du Sujet - Trois Types d'Attaquants
+# Présentation du Sujet - Profils d'Attaquants
 
 \begin{itemize}
   \only<1,2,3>{ \item[1]  \textbf{Attaque physique} : Via diagnostique de la voiture. Objectif :
@@ -246,8 +244,8 @@ International Conference on Dependable Systems and Networks (DSN 2008,
 - Véhicules limités en puissance calcul et en ressources. \newline
   $\rightarrow$ Utilisation de méthodes de défense légère.
 
-- Deux types de défenses dynamiques complémentaires applicables sur
-  les véhicules : *Moving Target Defense* (MTD) et *Modes Dégradés*.
+- Améliorer la *résilience* des véhicules grâce à des techniques de
+  défenses dynamiques complémentaires.
 
 - Côté réactif : **Modes Dégradés** : bloquer la progression d'un
   attaquant après les défenses percées. \newline Aide au retour du
@@ -301,15 +299,16 @@ Center, sept. 2013.}
 # Défense du Véhicule - Efficacité des MTD Lors d'une Attaque
 
 \begin{columns}
-    \begin{column}{0.26\textwidth}
-\begin{figure}[h]
+    \begin{column}{0.46\textwidth}
+\begin{figure}[]
     \centering
     \includegraphics[width=1\textwidth]{assets/hacker.jpg}
     \label{MTD}
 \end{figure}
     \end{column}
-\begin{column}{0.72\textwidth}
+\begin{column}{0.53\textwidth}
 \begin{exampleblock}{Une attaque est divisée en 5 phases \footnotemark : }
+	\centering
   \begin{enumerate}
 	\item Reconnaissance
 	\item Accès
@@ -491,6 +490,8 @@ Distribution of Network Security Resources”.en. In: (2017)}
 - **Minmax**. Permet de minimiser le reward maximum que l'autre joueur
   pourrait obtenir.
 
+- **Maxmin**. Permet de maximiser le reward minimum que l'on peut peut
+  obtenir.
 
 
 # Théorie des Jeux - Définition du Jeu
@@ -562,7 +563,7 @@ Distribution of Network Security Resources”.en. In: (2017)}
 \begin{columns}
 	\begin{column}{0.99\textwidth}
 	\centering
-	\textbf{Représentation de l'utilisation des actions}
+	\textbf{Représentation de l'utilisation des actions} \newline \tiny{(ce que l'on cherche à determiner)}
 	\end{column}
 \end{columns}
 
@@ -626,6 +627,8 @@ Distribution of Network Security Resources”.en. In: (2017)}
 \begin{itemize}
 \item Utiliser les différents équilibres présentés afin de determiner les \emph{stratégies
 	optimales} permettant d'avoir les \emph{fonctions d'utilité maximales}.
+	\medskip
+\item Les recherches d'équilibres visent à determiner les différentes valeurs de $p_i ; q_i ;..$.
 \end{itemize}
 \end{column}
 \end{columns}
