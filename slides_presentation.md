@@ -155,8 +155,8 @@ header-includes:
 		\begin{exampleblock}{Problème}
 			\begin{itemize}
 				\item Les véhicules deviennent \emph{connectés} à internet
-                tout en embarquant des \textbf{appplication critiques}
-                cohabitant avec des \textbf{application non critique}. \newline
+                tout en embarquant des \textbf{applications critiques}
+                cohabitant avec des \textbf{applications non critiques}. \newline
 				$\rightarrow$ Les problèmes impliquent des vies humaines.
 			\end{itemize}
 		\end{exampleblock}
@@ -190,14 +190,14 @@ header-includes:
 # Présentation du Sujet - Profils d'Attaquants
 
 \begin{itemize}
-  \only<1,2,3>{ \item[1]  \textbf{Attaque physique} : Via diagnostique de la voiture. Objectif :
-  Rajouter des fonctionnalités sur le véhicules pour lesquelles on a
+  \only<1,2,3>{ \item[1]  \textbf{Attaque physique} : Via la prise diagnostique de la voiture. Objectif :
+  Rajouter des fonctionnalités sur le véhicule pour lesquelles on a
   pas payé.}
-  \only<2,3>{ \item[2] \textbf{Attaque courte portée} : Via smartphone/laptop.. Objectif :
+  \only<2,3>{ \item[2] \textbf{Attaque courte portée} : Via smartphone/laptop$\ldots$ Objectif :
   Prendre le contrôle d'un véhicule proche, ou envoyer de fausses
-  informations au véhicules alentours.}
+  informations aux véhicules alentours.}
   \only<3>{ \item[3] \textbf{Attaque longue portée} : Via WiFi/4G. Objectif : Prendre le
-  contrôle d'une flotte de véhicule. }
+  contrôle d'une flotte de véhicules. }
 \end{itemize}
 
 
@@ -224,7 +224,7 @@ header-includes:
 \begin{exampleblock}{Notre Définition de la Résilience}
   \begin{itemize}
 	\item Se défendre de manière \emph{proactive} le plus longtemps possible
-		  contre toutes formes d'attaques. Une fois ces défenses
+		  contre toutes formes d'attaque. Une fois ces défenses
 		  tombées, revenir rapidement dans un \'etat de fonctionnement nominal grâce
 		  à des mécanismes de défenses \emph{réactifs}.
   \end{itemize}
@@ -333,9 +333,9 @@ Moving-Target Techniques”. In :IEEE SecurityPrivacy12.2 (mar. 2014)}
 MTD/ Attack              & Reconnaissance & Accès        & Déploiement  & Lancement    & Persistence  \\ \hline
 Réseau                   & $\checkmark$   &              &              & $\checkmark$ &              \\ \hline
 Plateforme               &                & $\checkmark$ & $\checkmark$ &              & $\checkmark$ \\ \hline
-Enviromenent d'Execution &                &              & $\checkmark$ & $\checkmark$ &              \\ \hline
+Environnement d'Ex\'ecution &                &              & $\checkmark$ & $\checkmark$ &              \\ \hline
 Logiciel                 &                &              & $\checkmark$ & $\checkmark$ &              \\ \hline
-Donées                   &                &              & $\checkmark$ & $\checkmark$ &              \\ \hline
+Données                   &                &              & $\checkmark$ & $\checkmark$ &              \\ \hline
 \end{tabular}
 \end{threeparttable}
 \end{adjustbox}
@@ -367,7 +367,7 @@ Defense - MTD’19.}
 \begin{exampleblock}{Actuellement : }
   \begin{itemize}
 	\item Un véhicule = Une adresse IPv4 (appartenant 
-    \`a la plage d'adresse du constructeur)
+    \`a la plage d'adresses du constructeur)
 	\item Découverte de l'adresse $\rightarrow$ Collecte d'informations
     du système par attaquant possible.
   \end{itemize}
@@ -386,7 +386,7 @@ Defense - MTD’19.}
             \item Un véhicule = \emph{$N$ adresses IP.}
 				  \vspace{0.3cm} 
             \item Une seule adresse IP \emph{active} à la fois. \newline (Active =
-   				  Acceptant les messages entrant = Vert ) \vspace{0.3cm}
+   				  Acceptant les messages entrants = Vert ) \vspace{0.3cm}
             \item \emph{Rotation périodique} de l'adresse IP active. \vspace{0.3cm}
             \item \emph{Renouvellement} adresse IP après utilisation.\vspace{0.3cm}
             \item Utilisation \textit{MultiPath TCP} (MPTCP) \newline $\rightarrow$ Garantir une
@@ -445,7 +445,7 @@ Risque d'attaque DoS & +++  & + & + \\
         \begin{itemize}
             \item Problème décisionnel à résoudre ? \newline $\rightarrow$
 			      \emph{Modélisation} du problème grâce à la théorie des jeux \footnotemark \newline
-				  $\rightarrow$ \emph{Analyse} sur le modèle afin trouver une/des solution(s)
+				  $\rightarrow$ \emph{Analyse} sur le modèle afin trouver un/des optimum(s)
         \end{itemize}
     \end{column}
     \begin{column}{0.22\textwidth}
@@ -484,7 +484,7 @@ Distribution of Network Security Resources”.en. In: (2017)}
   stratégies dont les deux joueurs ne devraient pas dévier seul.
 
 - **Equilibre de Stackelberg** ; joueurs jouent chacun leur
-  tour. Determination des meilleures stratégies permettant de limiter
+  tour. D\'etermination des meilleures stratégies permettant de limiter
   les gains du second joueur.
 
 - **Minmax**. Permet de minimiser le reward maximum que l'autre joueur
